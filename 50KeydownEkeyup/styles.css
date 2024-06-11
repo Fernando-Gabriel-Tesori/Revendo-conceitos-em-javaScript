@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #e66465, #9198e5);
+    transition: background 0.5s ease;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+body.foggy {
+    background: url('https://www.transparenttextures.com/patterns/foggy-birds.png');
+    background-size: cover;
+    background-blend-mode: screen;
+}
